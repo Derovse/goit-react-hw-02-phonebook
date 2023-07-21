@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { nanoid } from 'nanoid';
-import ContactForm from '../components/contactForm/ContactForm';
-import ContactList from '../components/contactList/ContactList';
-import Filter from '../components/filther/Filther';
+import ContactForm from './contactForm/contactForm';
+import ContactList from './contactList/contactList';
+import Filter from './filther/filther';
 
 const App = () => {
   const [contacts, setContacts] = useState([
