@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { nanoid } from 'nanoid';
-import ContactForm from '../components/contactForm/ContactForm';
-import ContactList from '../components/contactList/ContactList';
-import Filter from '../components/filther/Filther';
+import ContactForm from './ContactForm/ContactForm';
+import ContactList from './ContactList/ContactList';
+import Filter from './Filther/Filther';
 
 class App extends Component {
   state = {
